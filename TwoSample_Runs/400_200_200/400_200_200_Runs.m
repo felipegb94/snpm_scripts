@@ -1,0 +1,23 @@
+%maxNumCompThreads(4);
+
+% List of open inputs
+spm('defaults', 'FMRI');
+clear jobs;
+spm_jobman('initcfg');
+
+nrun = 8; % enter the number of runs here
+jobs = {
+        '/home/felipe/PermTest/SnPM-output/TwoSample_ADRCRuns/400_200_200/ADRC_400_200_200_Run_job640000.m',...
+        '/home/felipe/PermTest/SnPM-output/TwoSample_ADRCRuns/400_200_200/ADRC_400_200_200_Run_job5000.m',...
+        '/home/felipe/PermTest/SnPM-output/TwoSample_ADRCRuns/400_200_200/ADRC_400_200_200_Run_job10000.m',...
+        '/home/felipe/PermTest/SnPM-output/TwoSample_ADRCRuns/400_200_200/ADRC_400_200_200_Run_job20000.m',...
+        '/home/felipe/PermTest/SnPM-output/TwoSample_ADRCRuns/400_200_200/ADRC_400_200_200_Run_job40000.m',...
+        '/home/felipe/PermTest/SnPM-output/TwoSample_ADRCRuns/400_200_200/ADRC_400_200_200_Run_job80000.m',...
+        '/home/felipe/PermTest/SnPM-output/TwoSample_ADRCRuns/400_200_200/ADRC_400_200_200_Run_job160000.m',...
+        '/home/felipe/PermTest/SnPM-output/TwoSample_ADRCRuns/400_200_200/ADRC_400_200_200_Run_job320000.m'
+       };
+
+inputs = cell(0, nrun);
+
+spm('defaults', 'FMRI');
+spm_jobman('run', jobs, inputs{:});

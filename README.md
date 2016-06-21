@@ -1,2 +1,2 @@
-# snpm_scripts
-Matlab Bash Scripts for SnPM
+# SnPM-Scripts
+Matlab scripts for SnPM runs
