@@ -215,7 +215,7 @@ matlabbatch{1}.spm.tools.snpm.des.TwoSampT.scans2 = {
                                                      };
 %%
 matlabbatch{1}.spm.tools.snpm.des.TwoSampT.cov = struct('c', {}, 'cname', {});
-matlabbatch{1}.spm.tools.snpm.des.TwoSampT.nPerm = 10000;
+matlabbatch{1}.spm.tools.snpm.des.TwoSampT.nPerm = 320000;
 matlabbatch{1}.spm.tools.snpm.des.TwoSampT.vFWHM = [0 0 0];
 matlabbatch{1}.spm.tools.snpm.des.TwoSampT.bVolm = 1;
 matlabbatch{1}.spm.tools.snpm.des.TwoSampT.ST.ST_none = 0;
