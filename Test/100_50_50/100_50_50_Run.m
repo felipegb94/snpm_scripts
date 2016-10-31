@@ -1,11 +1,11 @@
 %-----------------------------------------------------------------------
-% Job saved on 25-Dec-2015 13:23:38 by cfg_util (rev $Rev: 6134 $)
+% Job saved on 09-Nov-2015 10:34:08 by cfg_util (rev $Rev: 6134 $)
 % spm SPM - SPM12 (6225)
 % cfg_basicio BasicIO - Unknown
 %-----------------------------------------------------------------------
 matlabbatch{1}.spm.tools.snpm.des.TwoSampT.DesignName = '2 Groups: Two Sample T test; 1 scan per subject';
 matlabbatch{1}.spm.tools.snpm.des.TwoSampT.DesignFile = 'snpm_bch_ui_TwoSampT';
-matlabbatch{1}.spm.tools.snpm.des.TwoSampT.dir = {'/nobackup/vamsi/PermTest/SnPM-output/analysis50'};
+matlabbatch{1}.spm.tools.snpm.des.TwoSampT.dir = {'/nobackup/vamsi/PermTest/SnPM-output/analysis100'};
 %%
 matlabbatch{1}.spm.tools.snpm.des.TwoSampT.scans1 = {
                                                      '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_002_S_0619.nii,1'
@@ -33,6 +33,31 @@ matlabbatch{1}.spm.tools.snpm.des.TwoSampT.scans1 = {
                                                      '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_007_S_0316.nii,1'
                                                      '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_007_S_1304.nii,1'
                                                      '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_007_S_1339.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_007_S_4568.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_007_S_4911.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_007_S_5196.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_009_S_5027.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_009_S_5037.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_009_S_5224.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_009_S_5252.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_011_S_0003.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_011_S_0010.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_011_S_0053.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_011_S_0183.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_011_S_4827.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_011_S_4845.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_011_S_4906.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_011_S_4912.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_011_S_4949.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_013_S_0592.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_013_S_0996.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_013_S_1161.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_013_S_1205.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_013_S_5071.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_014_S_0328.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_014_S_0356.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_014_S_1095.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group1/AD_014_S_4039.nii,1'
                                                      };
 %%
 %%
@@ -60,12 +85,37 @@ matlabbatch{1}.spm.tools.snpm.des.TwoSampT.scans2 = {
                                                      '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_005_S_0553.nii,1'
                                                      '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_005_S_0602.nii,1'
                                                      '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_005_S_0610.nii,1'
-                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_006_S_0484.nii,1'
                                                      '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_006_S_0498.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_006_S_0681.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_006_S_0731.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_007_S_0068.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_007_S_0070.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_006_S_0484.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_007_S_1206.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_007_S_1222.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_007_S_4387.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_007_S_4488.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_007_S_4516.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_007_S_4620.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_007_S_4637.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_009_S_0751.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_009_S_0842.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_009_S_4337.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_009_S_4388.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_009_S_4612.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_011_S_0002.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_011_S_0005.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_011_S_0016.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_011_S_0021.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_011_S_0022.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_011_S_0023.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_011_S_4075.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_011_S_4105.nii,1'
+                                                     '/nobackup/vamsi/PermTest/ExperimentsData/group2/CN_011_S_4120.nii,1'
                                                      };
 %%
 matlabbatch{1}.spm.tools.snpm.des.TwoSampT.cov = struct('c', {}, 'cname', {});
-matlabbatch{1}.spm.tools.snpm.des.TwoSampT.nPerm = 320000;
+matlabbatch{1}.spm.tools.snpm.des.TwoSampT.nPerm = 10000;
 matlabbatch{1}.spm.tools.snpm.des.TwoSampT.vFWHM = [0 0 0];
 matlabbatch{1}.spm.tools.snpm.des.TwoSampT.bVolm = 1;
 matlabbatch{1}.spm.tools.snpm.des.TwoSampT.ST.ST_none = 0;
@@ -75,4 +125,4 @@ matlabbatch{1}.spm.tools.snpm.des.TwoSampT.masking.em = {''};
 matlabbatch{1}.spm.tools.snpm.des.TwoSampT.globalc.g_omit = 1;
 matlabbatch{1}.spm.tools.snpm.des.TwoSampT.globalm.gmsca.gmsca_no = 1;
 matlabbatch{1}.spm.tools.snpm.des.TwoSampT.globalm.glonorm = 1;
-matlabbatch{2}.spm.tools.snpm.cp.snpmcfg = {'/nobackup/vamsi/PermTest/SnPM-output/analysis50/SnPMcfg.mat'};
+matlabbatch{2}.spm.tools.snpm.cp.snpmcfg = {'/nobackup/vamsi/PermTest/SnPM-output/analysis100/SnPMcfg.mat'};
